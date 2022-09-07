@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xmlns="http://java.sun.com/xml/ns/javaee" 
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" 
+  version="3.0">
+  <servlet>
+           <servlet-name>Tes</servlet-name>
+           <servlet-class>essay.serfirst</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Tes</servlet-name>
+    <url-pattern>/index</url-pattern>
+  </servlet-mapping> 
+  
+  
+  <servlet>
+    		<servlet-name>welcome</servlet-name>
+  			  <servlet-class>essay.welcome</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>welcome</servlet-name>
+    <url-pattern>/home</url-pattern>
+  </servlet-mapping>
+</web-app>
