@@ -12,6 +12,8 @@ public class serfirst extends HttpServlet{
 		// TODO Auto-generated method stub
 		String message = "looool ll l ";
 		request.setAttribute("var",message);
+		String name = request.getParameter("name");
+		request.setAttribute("name");
 		this.getServletContext().getRequestDispatcher("/WEB-INF/index.jsp").forward(request, resp);
 	}
 
