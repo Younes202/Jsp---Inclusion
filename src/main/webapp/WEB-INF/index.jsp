@@ -13,6 +13,9 @@
 </header>
 
 <section>
+<% String name = (String) request.setAttribute("name");
+    out.println(name);
+%>
  <p> Content of page  index</p>
  <%@ include file = "content/index.jsp" %>
 
